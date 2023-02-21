@@ -1,0 +1,33 @@
+.InsertTaskBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  outline: none;
+  border: solid 2px #111;
+  border-radius: 5px;
+  height: 60px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+.sendButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background: #348ac7;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sendButton:hover {
+  transform: scale(1.02);
+}

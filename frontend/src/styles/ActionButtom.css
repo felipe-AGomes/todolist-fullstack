@@ -1,0 +1,18 @@
+.boxButtom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+button:hover {
+  background: #348ac7;
+  color: #fff;
+  cursor: pointer;
+}

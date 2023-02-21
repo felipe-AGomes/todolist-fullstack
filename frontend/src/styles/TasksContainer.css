@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+}
+
+thead {
+  background: #bbb;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}

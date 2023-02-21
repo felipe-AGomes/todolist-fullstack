@@ -1,0 +1,7 @@
+select {
+  background: #ccc;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  text-transform: capitalize;
+}
